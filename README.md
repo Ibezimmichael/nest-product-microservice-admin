@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This microservice is the Products Admin part of a larger system built using the Nest framework. It listens on port 6001 and uses a PostgreSQL database. It communicates with the main part of the system, another NestJS project, using RabbitMQ and HttpService.
 
 ## Installation
 
@@ -33,6 +33,7 @@ $ npm install
 ```
 
 ## Running the app
+Make sure to copy .env.example to .env and fill in the necessary values.
 
 ```bash
 # development
@@ -43,19 +44,6 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
 ```
 
 ## Support

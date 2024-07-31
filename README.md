@@ -49,21 +49,16 @@ $ npm run start:prod
 ## API Routes
 The following API routes are available for managing products:
 
-GET /api/products: Retrieve a list of all products
-GET /api/products/:id: Retrieve details of a specific product by ID
-POST /api/products: Create a new product
-PUT /api/products/:id: Update an existing product by ID
-DELETE /api/products/:id: Delete a product by ID
+- GET /api/products: Retrieve a list of all products
+- GET /api/products/:id: Retrieve details of a specific product by ID
+- POST /api/products: Create a new product
+- PUT /api/products/:id: Update an existing product by ID
+- DELETE /api/products/:id: Delete a product by ID
 
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [Ibezim Michael]
 
 ## License
 

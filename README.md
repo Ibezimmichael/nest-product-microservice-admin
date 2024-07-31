@@ -44,7 +44,16 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+
 ```
+## API Routes
+The following API routes are available for managing products:
+
+GET /api/products: Retrieve a list of all products
+GET /api/products/:id: Retrieve details of a specific product by ID
+POST /api/products: Create a new product
+PUT /api/products/:id: Update an existing product by ID
+DELETE /api/products/:id: Delete a product by ID
 
 ## Support
 
